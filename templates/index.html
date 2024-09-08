@@ -16,9 +16,11 @@
             Which will be connecting to ollama<br>
             library will pass to LMM?<br>
         </p>
-        <p>Enter your question here:</p>
-        <input>
-        <button>Press Here</button>
+        <form action="/submit" method="post">
+            <label for="textbox">Enter your question here:</label>
+            <input type="text" id="textbox" name="textbox">
+            <button type="submit">Press Here</button>
+        </form>
     </body>
     <script>
 
