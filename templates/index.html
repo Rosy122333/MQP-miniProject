@@ -22,6 +22,14 @@
             <input type="text" id="textbox" name="textbox">
             <button type="submit">Press Here</button>
         </form>
+
+        {% if result %}
+        <div>
+            <h3>Ollama Response:</h3>
+            <p>{{ result }}</p>
+        </div>
+        {% endif %}
+
     </body>
     <script>
 
