@@ -10,6 +10,7 @@
 
     </head>
     <body>
+        <div class = "center">
         <header>MiniProject</header>
 
         <p>We will be sending a query to the python server<br>
@@ -22,13 +23,17 @@
             <input type="text" id="textbox" name="textbox">
             <button type="submit">Press Here</button>
         </form>
+        </div>
 
+        <div class = "result">
         {% if result %}
         <div>
             <h3>Ollama Response:</h3>
             <p>{{ result }}</p>
         </div>
         {% endif %}
+        </div>
+    
 
     </body>
     <script>

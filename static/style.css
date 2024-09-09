@@ -6,3 +6,18 @@ button {
 input {
     background-color: rgb(171, 171, 241);
 }
+
+.center {
+    margin: auto;
+    text-align: center;
+    width:500px;
+    height:auto;
+    border: 3px solid rgb(0, 13, 128);
+}
+.result {
+    margin: auto;
+    text-align: center;
+    width:500px;
+    height:auto;
+    border: 3px solid rgb(10, 29, 203);
+}
